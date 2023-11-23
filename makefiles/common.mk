@@ -15,6 +15,11 @@ ifeq ($(SHELL),/bin/sh)
 export SHELL = bash
 endif
 
+# Termux has a different path for the subshells. Force SHELL to bash if it is still sh.
+ifeq ($(SHELL),/data/data/com.termux/files/usr/bin/sh)
+export SHELL = /data/data/com.termux/files/usr/bin/bash
+endif
+
 ifeq ($(THEOS_PROJECT_DIR),)
 THEOS_PROJECT_DIR := $(shell pwd)
 endif
