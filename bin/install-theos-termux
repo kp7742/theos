@@ -168,7 +168,7 @@ linux() {
 					pkg install -y ncurses
 					;;
 			esac
-			curl -LO https://github.com/L1ghtmann/llvm-project/releases/download/test-210562a/iOSToolchain-aarch64.tar.xz
+			curl -LO https://github.com/kp7742/iOSToolchain/releases/download/main-update-33a8a17/iOSToolchain-aarch64.tar.xz
 			tar -xvf iOSToolchain-aarch64.tar.xz -C $THEOS/toolchain/
 			rm iOSToolchain-aarch64.tar.xz
 		fi
