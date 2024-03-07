@@ -1,3 +1,9 @@
+# Theos for Termux
+Installer Command: 
+```
+    bash -c "$(curl -fsSL https://raw.githubusercontent.com/kp7742/theos/master/bin/install-theos-termux)"
+```
+
 <p align="center">
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://theos.dev/img/github-banner-dark.svg">
