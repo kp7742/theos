@@ -168,7 +168,7 @@ linux() {
 					pkg install -y ncurses
 					;;
 			esac
-			curl -LO https://github.com/kp7742/apple-llvm/releases/download/apple%2Fstable%2F20230725/iOSToolchain.tar.xz
+			curl -LO https://github.com/kp7742/apple-llvm/releases/download/apple%2Fstable%2F20230725-opt/iOSToolchain.tar.xz
 			tar -xvf iOSToolchain.tar.xz -C $THEOS/toolchain/
 			rm iOSToolchain.tar.xz
 		fi
