@@ -1,7 +1,7 @@
 # Theos for Termux
 Installer Command: 
 ```
-    bash -c "$(curl -fsSL https://raw.githubusercontent.com/kp7742/theos/master/bin/install-theos-termux)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/kp7742/theos/master/bin/install-theos-termux)"
 ```
 
 <p align="center">
